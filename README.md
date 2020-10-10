@@ -1,5 +1,5 @@
 # MazeACO
-Using Ant Colony Optimisation algorithm to solve the shortest path to exits problem in a maze.
+Using Ant Colony Optimisation (ACO) algorithm to solve the shortest path to exits problem in a maze.
 
 ## Running the algorithm
 - Put all .py files in the same directory, and run main.py using a Python IDE.  
