@@ -15,6 +15,10 @@ To formulate this problem, a maze with some blocked paths of the size of 6x6 is 
 
 For better clarity, I’ve separated the codes into four files, namely main.py, p1functions.py, node.py, and ant.py which has the main codes with problem formulation, codes of functions, Node class codes, and Ant class codes in the four files respectively.
 
+## Expected Outputs
+![Expected_Output1](resources/Expected_Output1.png)
+![Expected_Output2](resources/Expected_Output2.png)
+
 ## Built On/With
 Built On : Python
 Built With : Spyder
