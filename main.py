@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#Problem 1
-
 from node import Node
 from ant import Ant
 from p1functions import *
@@ -48,6 +46,7 @@ if __name__ == '__main__':
                     if (x==nodeCoor[0] and abs(y-nodeCoor[1]) == 1) or (y==nodeCoor[1] and abs(x-nodeCoor[0]) == 1):
                         nodes[nodeCoor].add_connected_node(nodes[(x, y)])
     
+    #Edit these variables to edit the maze 
     entrance = nodes[(1, 4)]
     exits = [nodes[(5, 6)], nodes[(6, 1)]]
     mazeSize = [6, 6] #[x, y]
