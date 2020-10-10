@@ -8,7 +8,8 @@ It is recommended to run this algorithm on Python IDEs that supports the integra
 ## Problem Description
 In this problem, we are required to find the shortest path for the player to go from one entrance to one of the exits, in a maze by applying the Ant Colony Optimization (ACO) algorithm. In other words, we are trying to solve the shortest path problem with the ACO algorithm. However, the solution found should always lead to the nearest exit because the path to the further exit would not be considered the shortest path if it takes a longer path to reach it than the nearest exit. The shortest-path problem involves finding paths with shortest lengths between selected pairs of vertices. In this case, the vertices are represented by each space of the maze. There may be multiple routes between the source (entrance) and destination (goal). Therefore, by using short path algorithms such as the Ant Colony Optimization (ACO) algorithm, we would be able to identify one path that is the shortest path that leads to one of the exits from the entrance.
 
-![Problem_Description](https://github.com/terrsoshi/MazeACO/blob/resources/ProblemDescription.png?raw=true)
+![Problem_Description](https://github.com/terrsoshi/MazeACO/blob/resources/Problem_Description.png?raw=true)
+![Problem_Description](resources/Problem_Description.png)
 
 ## Problem Formulation
 To formulate this problem, a maze with some blocked paths of the size of 6x6 is initialised.
